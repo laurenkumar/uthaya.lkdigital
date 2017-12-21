@@ -1,0 +1,164 @@
+Dec 21 13:18:43 10.71.50.38 u90082624 Connection from 10.71.50.38 port 46862 on 212.227.114.79 port 22
+Dec 21 13:18:47 10.71.50.38 u90082624 Failed publickey for u90082624 from 10.71.50.38 port 46862 ssh2: RSA 6f:b2:83:6d:33:27:f6:4e:b5:b6:5b:de:17:10:04:0d
+Dec 21 13:18:49 10.71.50.38 u90082624 Failed password for u90082624 from 10.71.50.38 port 46862 ssh2
+Dec 21 13:19:41 10.71.50.38 u90082624 Connection from 10.71.50.38 port 46236 on 212.227.114.79 port 22
+Dec 21 13:19:42 10.71.50.38 u90082624 Failed publickey for u90082624 from 10.71.50.38 port 46236 ssh2: RSA 6f:b2:83:6d:33:27:f6:4e:b5:b6:5b:de:17:10:04:0d
+Dec 21 13:19:42 10.71.50.38 u90082624 Accepted password for u90082624 from 10.71.50.38 port 46236 ssh2
+Dec 21 13:19:42 10.71.50.38 u90082624 Starting session: subsystem 'sftp' for u90082624 from 10.71.50.38 port 46236
+Dec 21 13:19:42 10.71.50.38 u90082624 session opened for local user u90082624 from [10.71.50.38]
+Dec 21 13:20:48 10.71.50.38 u90082624 sent status No such file
+Dec 21 13:20:47 10.71.50.38 u90082624 Connection from 10.71.50.38 port 56312 on 212.227.114.79 port 22
+Dec 21 13:20:48 10.71.50.38 u90082624 Failed publickey for u90082624 from 10.71.50.38 port 56312 ssh2: RSA 6f:b2:83:6d:33:27:f6:4e:b5:b6:5b:de:17:10:04:0d
+Dec 21 13:20:47 10.71.50.38 u90082624 Connection from 10.71.50.38 port 56302 on 212.227.114.79 port 22
+Dec 21 13:20:48 10.71.50.38 u90082624 Failed publickey for u90082624 from 10.71.50.38 port 56302 ssh2: RSA 6f:b2:83:6d:33:27:f6:4e:b5:b6:5b:de:17:10:04:0d
+Dec 21 13:20:48 10.71.50.38 u90082624 Accepted password for u90082624 from 10.71.50.38 port 56312 ssh2
+Dec 21 13:20:48 10.71.50.38 u90082624 Accepted password for u90082624 from 10.71.50.38 port 56302 ssh2
+Dec 21 13:20:48 10.71.50.38 u90082624 Starting session: subsystem 'sftp' for u90082624 from 10.71.50.38 port 56312
+Dec 21 13:20:48 10.71.50.38 u90082624 Starting session: subsystem 'sftp' for u90082624 from 10.71.50.38 port 56302
+Dec 21 13:20:48 10.71.50.38 u90082624 session opened for local user u90082624 from [10.71.50.38]
+Dec 21 13:20:48 10.71.50.38 u90082624 session opened for local user u90082624 from [10.71.50.38]
+Dec 21 13:20:48 10.71.50.38 u90082624 open "/.htaccess" flags READ mode 0666
+Dec 21 13:20:48 10.71.50.38 u90082624 open "/bootstrap.css" flags READ mode 0666
+Dec 21 13:20:48 10.71.50.38 u90082624 close "/.htaccess" bytes read 123 written 0
+Dec 21 13:20:48 10.71.50.38 u90082624 [10.71.50.38|get|0|123|0|0|0|2f2e6874616363657373|]
+Dec 21 13:20:48 10.71.50.38 u90082624 close "/bootstrap.css" bytes read 156884 written 0
+Dec 21 13:20:48 10.71.50.38 u90082624 [10.71.50.38|get|0|156884|0|0|0|2f626f6f7473747261702e637373|]
+Dec 21 13:20:48 10.71.50.38 u90082624 open "/bootstrap.min.js" flags READ mode 0666
+Dec 21 13:20:48 10.71.50.38 u90082624 open "/fonctionsJs.js" flags READ mode 0666
+Dec 21 13:20:48 10.71.50.38 u90082624 close "/bootstrap.min.js" bytes read 51143 written 0
+Dec 21 13:20:48 10.71.50.38 u90082624 [10.71.50.38|get|0|51143|0|0|0|2f626f6f7473747261702e6d696e2e6a73|]
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/fonctionsJs.js" bytes read 1383 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|1|1383|0|0|0|2f666f6e6374696f6e734a732e6a73|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/index.html" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/jquery.bxslider.css" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/index.html" bytes read 7852 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|7852|0|0|0|2f696e6465782e68746d6c|]
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/jquery.bxslider.css" bytes read 3951 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|3951|0|0|0|2f6a71756572792e6278736c696465722e637373|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/jquery.bxslider.js" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/jquery.bxslider.js" bytes read 65934 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|65934|0|0|0|2f6a71756572792e6278736c696465722e6a73|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/jquery.js" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/send_form_email.php" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/jquery.js" bytes read 86658 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|86658|0|0|0|2f6a71756572792e6a73|]
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/send_form_email.php" bytes read 2244 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|2244|0|0|0|2f73656e645f666f726d5f656d61696c2e706870|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/stylesheet.css" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/stylesheet.css" bytes read 5697 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|5697|0|0|0|2f7374796c6573686565742e637373|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/twitter.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/twitter.png" bytes read 561 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|561|0|0|0|2f696d616765732f747769747465722e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/traduction.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/traduction.png" bytes read 22945 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|22945|0|0|0|2f696d616765732f74726164756374696f6e2e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/livres.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/temple.jpg" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/livres.png" bytes read 5398 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|5398|0|0|0|2f696d616765732f6c69767265732e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/tamil.jpg" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/temple.jpg" bytes read 195022 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|195022|0|0|0|2f696d616765732f74656d706c652e6a7067|]
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/tamil.jpg" bytes read 57819 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|57819|0|0|0|2f696d616765732f74616d696c2e6a7067|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/papillon.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/palmier.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/papillon.png" bytes read 19326 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|19326|0|0|0|2f696d616765732f706170696c6c6f6e2e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/logo-uthaya.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/palmier.png" bytes read 165371 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|165371|0|0|0|2f696d616765732f70616c6d6965722e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/logo-uthaya.png" bytes read 31982 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|31982|0|0|0|2f696d616765732f6c6f676f2d7574686179612e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/logo-blanc.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/logo-blanc-hover.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/logo-blanc.png" bytes read 19544 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|19544|0|0|0|2f696d616765732f6c6f676f2d626c616e632e706e67|]
+Dec 21 13:20:49 10.71.50.38 u90082624 open "/images/linkedin.png" flags READ mode 0666
+Dec 21 13:20:49 10.71.50.38 u90082624 close "/images/logo-blanc-hover.png" bytes read 7039 written 0
+Dec 21 13:20:49 10.71.50.38 u90082624 [10.71.50.38|get|0|7039|0|0|0|2f696d616765732f6c6f676f2d626c616e632d686f7665722e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/linkedin.png" bytes read 600 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|1|600|0|0|0|2f696d616765732f6c696e6b6564696e2e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/insta.png" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/insta.png" bytes read 783 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|783|0|0|0|2f696d616765732f696e7374612e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/fleche.png" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/fb.png" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/fleche.png" bytes read 5813 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|5813|0|0|0|2f696d616765732f666c656368652e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/fb.png" bytes read 328 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|328|0|0|0|2f696d616765732f66622e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/epices.jpg" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/elephants.jpg" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/elephants.jpg" bytes read 161904 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|161904|0|0|0|2f696d616765732f656c657068616e74732e6a7067|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/epices.jpg" bytes read 292659 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|292659|0|0|0|2f696d616765732f6570696365732e6a7067|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/cuisine.png" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/cours-tamoul.png" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/cuisine.png" bytes read 12529 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|12529|0|0|0|2f696d616765732f63756973696e652e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/cours-tamoul.png" bytes read 2535 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|2535|0|0|0|2f696d616765732f636f7572732d74616d6f756c2e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/controls.png" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/images/bx_loader.gif" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/controls.png" bytes read 2806 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|2806|0|0|0|2f696d616765732f636f6e74726f6c732e706e67|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/images/bx_loader.gif" bytes read 8581 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|8581|0|0|0|2f696d616765732f62785f6c6f616465722e676966|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/logs/access.log.51.4" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/logs/access.log.51.2.gz" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/logs/access.log.51.4" bytes read 10946 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|10946|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e34|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/logs/access.log.51.2.gz" bytes read 203 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|203|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e322e677a|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/logs/access.log.46.gz" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/logs/access.log.49.gz" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/logs/access.log.46.gz" bytes read 1129 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|1129|0|0|0|2f6c6f67732f6163636573732e6c6f672e34362e677a|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/logs/access.log.49.gz" bytes read 984 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|984|0|0|0|2f6c6f67732f6163636573732e6c6f672e34392e677a|]
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/logs/access.log.50.4.gz" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 open "/logs/access.log.47.gz" flags READ mode 0666
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/logs/access.log.50.4.gz" bytes read 587 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|587|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e342e677a|]
+Dec 21 13:20:50 10.71.50.38 u90082624 close "/logs/access.log.47.gz" bytes read 650 written 0
+Dec 21 13:20:50 10.71.50.38 u90082624 [10.71.50.38|get|0|650|0|0|0|2f6c6f67732f6163636573732e6c6f672e34372e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.44.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.50.7.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.44.gz" bytes read 1573 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|1573|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.50.7.gz" bytes read 645 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|645|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e372e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.43.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/info.php5" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.43.gz" bytes read 2036 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|2036|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/info.php5" bytes read 21 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.50.6.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/sftp.log.43.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.50.6.gz" bytes read 287 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|287|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e362e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/sftp.log.43.gz" bytes read 3033 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|3033|0|0|0|2f6c6f67732f736674702e6c6f672e34332e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.51.3.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.50.5.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.51.3.gz" bytes read 225 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|225|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e332e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.50.5.gz" bytes read 554 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|554|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e352e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.50.3.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.50.1.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.50.3.gz" bytes read 555 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|555|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e332e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.50.1.gz" bytes read 185 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|185|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e312e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.48.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/access.log.45.gz" flags READ mode 0666
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.48.gz" bytes read 1019 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|1019|0|0|0|2f6c6f67732f6163636573732e6c6f672e34382e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 close "/logs/access.log.45.gz" bytes read 872 written 0
+Dec 21 13:20:51 10.71.50.38 u90082624 [10.71.50.38|get|0|872|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e677a|]
+Dec 21 13:20:51 10.71.50.38 u90082624 open "/logs/sftp.log" flags READ mode 0666

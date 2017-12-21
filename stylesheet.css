@@ -1,0 +1,312 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV HEADER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.block_header {
+	background-color: #2f7b6f;
+	border-bottom: 1px #95c11f solid;
+	color: white;
+	text-align: end;
+	width: 100%;
+	z-index: 10000;
+	padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    /*background-image: url("palmier.png");
+	background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 100% 3%;
+    background-blend-mode: soft-light;*/
+}
+
+.logo {
+	width: 69%;
+	display: inline-block;
+	text-align: left;
+}
+
+.logo img {
+	width: 12%;
+	margin-left: 6%;
+}
+
+.logo img:hover {
+	/*background-image: url("logo-blanc-hover.png");
+	width: 12%;
+	background-color: red;*/
+
+}
+
+.hidden {
+	display: none;
+}
+
+.services, .contact {
+	padding-right: 5%;
+	width: 15%;
+	/*text-align: center;*/
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS";
+}
+
+.services a, .contact a {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+.services a:hover, .contact a:hover {
+	color: #95c11f;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV nom_prenom - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.block_nom_prenom {
+	background-color: #41af92;
+	color: white;
+	width: 100%;
+	background-image: url("images/palmier.png");
+	background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 100% 50%;
+    background-blend-mode: soft-light;
+    padding: 15% 5% 8% 5%;
+}
+
+.block_nom_prenom p {
+	font-size: 5em;
+}
+
+.prenom {
+	font-size: 50px;
+	font-weight: lighter;
+	line-height: 0.5;
+}
+
+.nom {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV services - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.block_services {
+	background-color: white;
+	text-align: center;
+	padding: 2% 5% 2% 5%;
+	width: 100%;
+}
+
+#block_services {
+	display: inline-flex;
+    font-size: x-large;
+}
+
+.title_services {
+	font-size: 40px;
+	font-weight: 200;
+	color : #41af92;
+}
+
+.image_cours, .image_interprete, .image_livre, .image_cuisine {
+	width: 24.5%;
+	height: 175px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: center;
+	cursor: pointer;
+	/*background-color: #efeaea;*/
+}
+
+.image_cours {
+	background-image: url("images/cours-tamoul.png");
+	background-size: 50%;
+}
+
+.image_interprete {
+	background-image: url("images/traduction.png");
+}
+
+.image_livre {
+	background-image: url("images/livres.png");
+}
+
+.image_cuisine {
+	background-image: url("images/cuisine.png");
+}
+
+.block_cours, .block_interprete, .block_livre, .block_cuisine {
+	width: 24.5%;
+	display: inline-block;
+	color: #41af92;
+	padding-top: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV presentation - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.block_presentation {
+	background-color: #5ab968;
+	color: white;
+	padding: 0 5% 1% 5%;
+	min-height: 280px;
+}
+
+.info_cours, .info_interprete, .info_livre, .info_cuisine {
+	text-align: center;
+	padding: 1% 0 0 0;
+}
+
+.info_cours header, .info_interprete header, .info_livre header, .info_cuisine header {
+	font-size: 30px;
+	line-height: 2;
+}
+
+.info_cours p, .info_interprete p, .info_livre p, .info_cuisine p {
+	padding: 2% 0 0 0;
+	font-size: 18px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV photos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.block_photos {
+	background-color: white;
+}
+
+.bx-wrapper img {
+    margin: 0 auto;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV contact - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.block_contact {
+	background-color: #6dc348;
+	text-align: center;
+	padding: 2% 5% 2% 5%;
+	width: 100%;
+}
+
+.title_contact {
+	font-size: 40px;
+	font-weight: 200;
+	color : white;
+}
+
+.map_form {
+	padding-top: 2%;
+}
+
+.map {
+	width: 49%;
+	display: inline-block;
+}
+
+ #map {
+ 	width: 90%;
+    height: 300px;
+    background-color: grey;
+}
+
+.formulaire {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.email {
+	margin-left: 9%;
+}
+
+.name_email {
+	padding-top: 2%;
+}
+
+.name, .email {
+	background-color: #6dc348;
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    width: 45%;
+    padding-left: 1%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+.message {
+	padding-top: 5%;
+}
+
+#after_submit, #email_validation, #name_validation {
+    display:none;
+}
+
+#message {
+	width: 100%;
+	background-color: #6dc348;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 1%;
+}
+
+.envoyer {
+	text-align: center;
+	padding-top: 4%;
+}
+
+.submit {
+	background-color: white;
+    border: 1px solid white;
+    color: #6dc348;
+    padding: 1% 3% 1% 3%;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - DIV footer - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+footer{
+	background-color: #70b933;
+	padding: 0.5% 5% 0.5% 5%;
+}
+
+.reseau_social {
+	display: inline-block;
+	width: 40%;
+}
+
+.reseau_social a {
+	padding-right: 5%;
+}
+
+.copyright {
+	display: inline-block;
+	color: white;
+	width: 18%;
+	text-align: center;
+}
+
+.tel, .mail {
+	display: inline-block;
+	color: white;
+	width: 20%;
+	text-align: end;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<script src="jquery.js"></script>
+	<script src="jquery.bxslider.js"></script>
+	<link href="jquery.bxslider.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="stylesheet.css"/>
+	<link rel="stylesheet" href="bootstrap.css"/>
+	<link rel="icon" type="image/png" href="images/papillon.png"/>
+	<title>uthaya - உதயா</title>
+</head>
+<body>
+	<div class="block_header">
+		<div class="logo">
+			<a href="http://uthaya.fr"><img src="images/logo-blanc.png"></a>
+		</div>
+		<div class="services">
+			<a href="#block_services">Services</a>
+		</div>
+		<div class="contact">
+			<a href="#block_contact">Contact</a>
+		</div>
+	</div>
+	<div class="block_nom_prenom">
+		<div class="prenom">SOPHIKA</div>
+		<div class="nom">UTHAYAKUMAR</div>
+		<div class="fonction" id="block_services">
+			Besoin d'une 
+			<ul class="bxfonction">
+				<li>&nbsp;Professeur</li>
+				<li>&nbsp;Interprète</li>
+				<li>&nbsp;Chef</li>
+			</ul>
+			?
+		</div>
+	</div>
+	<div class="block_services">
+		<div class="title_services">SERVICES</div>
+		<div class="image_cours" id="image_cours"  onclick="clickService(this)"></div>
+		<div class="image_interprete" id="image_interprete"  onclick="clickService(this)"></div>
+		<div class="image_livre" id="image_livre"  onclick="clickService(this)"></div>
+		<div class="image_cuisine" id="image_cuisine"  onclick="clickService(this)"></div>
+		<div class="block_cours">COURS DE TAMOUL</div>
+		<div class="block_interprete">INTERPRETATION & TRADUCTION</div>
+		<div class="block_livre">LIVRES</div>
+		<div class="block_cuisine">CUISINE</div>
+	</div>
+	<div class="block_presentation">
+		<div class="info_cours info">
+			<header>Cours de Tamoul</header>
+			<p>Etant diplomée Higher Certificate (level 3) en littérature Tamoul de l'université Thanjavur (Inde), et en cours de préparation pour l'équivalence du Master Tamoul, j'ai eu l'occasion d'enseigner dans une association (<a href="http://paris-tec.com/" target="_blank">PTEC</a>, Paris 11) et auprès de plusieurs élèves de tout âge.</p>
+			<p>Passant de la grammaire à la syntaxe, aux diverses expressions, vocabulaire, préparations aux examens, ces cours complets sauront s'adapter à vos besoins quels qu'ils soient, de part une méthodologie d'apprentissage adaptive et qui fonctionne déjà sur mes élèves.</p>
+		</div>
+		<div class="info_interprete info hidden">
+			<header>Interprètation & Traduction</header>
+			<p>Ayant eu diverses expèriences en tant qu'interprète lors de formations de l'Office Français de l'Immigration et de l'Intégration et pour de nombreux particuliers; notamment des rendez vous dans une banque ou la traduction de lettres tamoul-français et vice-versa; Je me tiens donc à disposition pour diverses services qui requièrent une interprétation.</p>
+		</div>
+		<div class="info_livre info hidden">
+			<header>Livres</header>
+			<p>J'ai participé à la création du livre "Apprenons le Tamoul" avec les associations <a href="http://tyofrance.fr" target="_blank">TYO</a> et <a href="http://respectdesoi.org" target="_blank">Respect de Soi</a>, destiné aux débutants. Ce livre de 12 chapitres, contient le vocabulaire et quelques expressions nécessaires pour la vie de tous les jours, pour enfants et adultes. C'est un livre ludique adaptant une certaine pédagogie afin que quiconque puisse apprendre de lui même cette langue.</p>
+			<p>Disponible en PDF sur demande.</p>
+			<p>J'écris en ce moment un nouveau livre toujours destinés à l'apprentissage de la langue de manière courante et avec un approfondissement oral.</p>
+		</div>
+		<div class="info_cuisine info hidden">
+			<header>Cuisine</header>
+			<p>Nouvelle passion depuis quelques années, je cuisine des plats locaux de mon pays natal, un dépaysement culturel qui me ramène à mes origines. Vous pouvez voir mes <a href="https://instagram.com/explore/tags/uthayacook/" target="_blank">recettes</a> et les commander <!-- sur la plateforme <a href="http://shareat.co" target="_blank">Shareat</a> --> si l'envie de voyager au Sri Lanka pendant un court moment vous prend.</p>
+			<!-- <p>Tarif min: 9,50 euros pour un poulet au curry / 1 personne</p> -->
+		</div>
+	</div>
+	<div class="block_photos">
+		<ul class="bxslider">
+			<li><img src="images/temple.jpg" alt="temple"/></li>
+			<li><img src="images/epices.jpg" alt="epices"/></li>
+			<li><img src="images/elephants.jpg" alt="elephants"/></li>
+		</ul>
+	</div>
+	<div class="block_contact" id="block_contact">
+		<div class="title_contact">CONTACT</div>
+		<div class="map_form">
+			<div class="map">
+				<div id="map"></div>
+			</div>
+			<div class="formulaire">
+				<!-- <div class="container">
+					<div class="row">
+				      <div class="col-md-6 col-md-offset-3">
+				        <div class="well well-sm">
+				          <form class="form-horizontal" action="" method="post">
+				          <fieldset>
+				            <legend class="text-center">Contact us</legend>
+				            <div class="form-group">
+				              <label class="col-md-3 control-label" for="name">Name</label>
+				              <div class="col-md-9">
+				                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+				              </div>
+				            </div>
+				            <div class="form-group">
+				              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+				              <div class="col-md-9">
+				                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+				              </div>
+				            </div>
+				            <div class="form-group">
+				              <label class="col-md-3 control-label" for="message">Your message</label>
+				              <div class="col-md-9">
+				                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+				              </div>
+				            </div>
+				            <div class="form-group">
+				              <div class="col-md-12 text-right">
+				                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+				              </div>
+				            </div>
+				          </fieldset>
+				          </form>
+				        </div>
+				      </div>
+					</div>
+				</div> -->
+				<div id="after_submit"></div>
+	          	<form id="contact_form" action="/send_form_email.php" method="GET"  target="_blank">
+	                <div class="name_email">
+	                	<input class="name input"  id="name" name="name" type="text" placeholder="Nom">
+	                	<input class="email input" id="email" name="email" type="text" placeholder="Email">
+	                </div>
+	                <div class="message">
+	                	<textarea  id="message" name="message" class="input" placeholder="Votre message.." rows="7"></textarea>
+					</div>
+	                <div class="envoyer"><input id="submitTo" class="submit" type="submit">
+	                </div>
+	          	</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="reseau_social">
+			<a href="http://linkedin.com/in/uthayakumar/" target="_blank"><img src="images/linkedin.png"></a>
+			<a href="http://facebook.com/uthaya19/" target="_blank"><img src="images/fb.png"></a>
+			<a href="http://instagram.com/uthaya_19/" target="_blank"><img src="images/insta.png"></a>
+			<a href="http://twitter.com/uthaya96/" target="_blank"><img src="images/twitter.png"></a>
+		</div>
+		<div class="copyright">Copyright © 2017 Uthaya</div>
+		<div class="tel">07 53 15 10 43</div>
+		<div class="mail">sopika16@hotmail.fr</div>
+	</footer>
+</body>
+
+<script type="text/javascript" src="http://uthaya.fr/fonctionsJs.js">
+</script>
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9cyirnkRPeCFMq082JUIZF7ILXh1Mm5M&callback=initMap">
+</script>
+
+</html>
